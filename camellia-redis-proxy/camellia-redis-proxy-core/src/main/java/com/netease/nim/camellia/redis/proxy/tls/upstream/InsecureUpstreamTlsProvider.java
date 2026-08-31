@@ -19,9 +19,9 @@ import java.util.concurrent.TimeUnit;
  * Suitable for scenarios where the backend redis uses self-signed certificates and the client does not provide a CA certificate.
  *
  * Enable it with the following configuration:
- * upstream.tls.provider.className=com.netease.nim.camellia.redis.proxy.tls.upstream.InsecureUpstreamTlsProvider
+ * upstream.tls.provider.class.name=com.netease.nim.camellia.redis.proxy.tls.upstream.InsecureUpstreamTlsProvider
  *
- * Created by caojiajun on 2023/8/9
+ * Created by terrytyzhang on 2023/8/9
  */
 public class InsecureUpstreamTlsProvider implements UpstreamTlsProvider {
 
